@@ -13,15 +13,15 @@
                 <a class="nav-link fw-bold" aria-current="page" href="{{ url('/') }}">Home</a>
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link fw-bold" href="{{ url('add-spark') }}">Post Spark</a>
+                <a class="nav-link fw-bold" href="{{ url('post') }}">Post Spark</a>
               </li>
               <li class="nav-item dropdown me-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="{{ url('') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle fw-bold" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Profile
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="{{ url('view-profile') }}">View Profile</a></li>
-                  <li><a class="dropdown-item" href="{{ url('get-help') }}">Get Help</a></li>
+                  <li><a class="dropdown-item" href="{{ url('profile') }}">View Profile</a></li>
+                  <li><a class="dropdown-item" href="{{ url('help') }}">Get Help</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Logout</a></li>
                 </ul>

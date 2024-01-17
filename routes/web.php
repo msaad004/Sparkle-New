@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('post', function() {
+    return view('add-post');
+});
+
+Route::get('profile', function () {
+    return view('own-profile');
+});
+
+Route::get('help', function () {
+    return view('get-help');
+});
