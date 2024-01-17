@@ -9,6 +9,7 @@
   </head>
   <body>
     @include('navbar')
+    
     <script src="{{ asset('jquery/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('js/index.js') }}"></script>
     <script src="{{ asset('popper/popper.min.js') }}"></script>
