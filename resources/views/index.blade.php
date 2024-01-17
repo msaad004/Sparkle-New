@@ -7,7 +7,8 @@
     <title>Sparkle</title>
   </head>
   <body>
-    <h1>Sparkle Welcomes You...</h1>
+    @include('navbar')
+    
     <script src="{{ asset('jquery/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('popper/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
