@@ -11,24 +11,6 @@
   @include('_partials/_navbar')
 
   <div class="d-flex flex-wrap justify-content-center">
-    <div class="container mt-3">
-      <ul class="nav bg-light">
-        <li class="nav-item">
-          <a class="nav-link link-dark">Sort by Categores:</a>
-        </li>
-        <div class="d-flex justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Personal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Tourism</a>
-          </li>
-        </div>
-      </ul>
-    </div>
     <div class="container mx-5 mt-4 w-5">
       <div class="p-5 bg-light rounded-3">
         <h1 class="display-4">Your Heading</h1>
