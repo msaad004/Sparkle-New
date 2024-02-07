@@ -12,7 +12,7 @@
           <span>Connect, Share and Inspire...</span>
         </ul>
         </div>
-        <a href="{{ url('register') }}">
+        <a href="{{ url('/signup') }}">
             <button class="btn btn-primary me-3">Signup</button>
         </a>
     </div>

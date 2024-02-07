@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
     $('#register_form').submit(function(e){
         e.preventDefault();
         let email = $('#email').val();
@@ -19,7 +24,7 @@ $(document).ready(function(){
         }
         $.ajax({
             type: "POST",
-            url: "{{ url('/reg') }}",
+            url: "{{ url('/register') }}",
             data: {email: email, full_name: full_name, password: password},
             success: function(data){
                 console.log('success');

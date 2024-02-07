@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/register', function() {
-    return view('register');
+Route::get('/signup', function() {
+    return view('signup');
 });
 
-Route::post('/reg', [Controller::class, 'register']);
+Route::post('/register', [Controller::class, 'register']);
 
 Route::get('/login', function() {
     return view('login');
