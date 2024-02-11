@@ -25,7 +25,7 @@
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
-              <input type="password" name="password" minlength="7" maxlength="255" class="form-control" id="password"">
+              <input type="password" name="password" minlength="7" maxlength="255" class="form-control" id="password">
             </div>
             <div class="mb-3">
               <label for="cpassword" class="form-label">Confirm Password</label>
@@ -35,7 +35,11 @@
           </form>
     </div>
 
+
     <script src="{{ asset('jquery/jquery-3.7.1.min.js') }}"></script>
+    <script>
+        let baseUrl = "{{ url('/') }}";
+    </script>
     <script src="{{ asset('js/signup.js') }}"></script>
     <script src="{{ asset('popper/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>

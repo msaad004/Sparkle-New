@@ -24,11 +24,11 @@ $(document).ready(function(){
         }
         $.ajax({
             type: "POST",
-            url: "{{ url('/register') }}",
+            url: baseUrl + "/register",
             data: {email: email, full_name: full_name, password: password},
-            success: function(data){
-                console.log('success');
-            } 
+            success: function(){
+                window.location.href = baseUrl + "/login";
+            }
         })
     })
 });
